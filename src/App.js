@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Welcome from "./components/Welcome";
 import Services from "./components/Services";
 import About from "./components/About";
-import Samples from "./components/Samples";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -12,7 +12,7 @@ function App() {
 			<Welcome />
 			<Services />
 			<About />
-			<Samples />
+			<Footer />
 		</>
 	);
 }

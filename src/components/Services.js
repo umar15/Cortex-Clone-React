@@ -1,6 +1,5 @@
 import React from "react";
 import Service1 from "./images/services-6.svg";
-import Service2 from "./images/services-7.svg";
 import Service3 from "./images/services-5.svg";
 
 const Services = () => {
