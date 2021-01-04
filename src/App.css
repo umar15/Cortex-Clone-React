@@ -44,7 +44,7 @@
 /* Services */
 .services {
 	height: 520px;
-	background-color: #9f9ef8;
+	background-color: rgb(66, 134, 168);
 }
 
 .ux-ui-pic {
@@ -60,13 +60,13 @@
 	padding-top: 100px;
 	padding-bottom: 50px;
 	padding-right: 60px;
-	color: rgb(36, 35, 35);
+	color: rgb(204, 203, 203);
 }
 
 .service-heading {
 	font-size: 60px;
 	padding: 20px 0;
-	color: rgb(15, 5, 76);
+	color: #efefef;
 }
 
 .service-text {
@@ -93,5 +93,46 @@
 	width: 40%;
 	padding: 100px 0;
 	padding-left: 60px;
-	color: rgb(36, 35, 35);
+	color: rgb(204, 203, 203);
 }
+
+/* About */
+.about {
+	height: 400px;
+	background-color: rgb(15, 5, 76);
+	color: #efefef;
+	padding-top: 60px;
+}
+
+.about-img {
+	float: left;
+	width: 45%;
+	text-align: center;
+	padding-left: 50px;
+}
+
+.about-text {
+	float: right;
+	width: 50%;
+}
+
+.image-about {
+	width: 300px;
+	border-radius: 150px;
+	margin-bottom: 10px;
+}
+
+.about-heading {
+	font-size: 40px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	color: #efefef;
+}
+.about-para {
+	padding-bottom: 20px;
+	line-height: 25px;
+	font-size: 20px;
+	color: rgb(204, 203, 203);
+}
+
+/* Samples */
