@@ -1,7 +1,10 @@
 import React from "react";
 import about from "./images/about.jpg";
+import useWebAnimations, { bounce } from "@wellyshen/use-web-animations";
 
 const About = () => {
+	const { ref } = useWebAnimations({ ...bounce });
+
 	return (
 		<div className="about">
 			<div className="about-img">
@@ -9,7 +12,9 @@ const About = () => {
 				<p>Nathan Mudaliar, the Cortex Copywriter</p>
 			</div>
 			<div className="about-text">
-				<h1 className="about-heading">About</h1>
+				<h1 className="about-heading" ref={ref}>
+					About
+				</h1>
 				<p className="about-para">
 					My copywriting and UX writing draws on abilities developed in the{" "}
 					<br />

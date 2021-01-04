@@ -1,8 +1,11 @@
 import React from "react";
 import Service1 from "./images/services-6.svg";
 import Service3 from "./images/services-5.svg";
+import useWebAnimations, { backInRight } from "@wellyshen/use-web-animations";
 
 const Services = () => {
+	const { ref } = useWebAnimations({ ...backInRight });
+
 	return (
 		<>
 			<div className="services">
@@ -10,7 +13,9 @@ const Services = () => {
 					<img src={Service1} alt="ux/ui writing" />
 				</div>
 				<div className="ux-ui-text">
-					<h1 className="service-heading">UX Writing</h1>
+					<h1 className="service-heading" ref={ref}>
+						UX Writing
+					</h1>
 					<p className="service-text">
 						I develop clear and useful text in product interfaces to help
 						users reach a specific goal, whether that's completing a form
