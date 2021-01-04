@@ -21,7 +21,7 @@ const navbar = {
 	flexDirection: "row",
 	backgroundColor: "rgb(15 5 76)",
 	color: "white",
-	padding: 18,
+	padding: 15,
 	fontSize: 20,
 	alignItems: "center",
 	justifyContent: "space-between",

@@ -2,32 +2,34 @@
 	padding: 0%;
 	margin: 0%;
 	font-family: Arial, Helvetica, sans-serif;
-	/* background-image: url("../public/images/pic.jpg"); */
+	/* background-color: #efefef; */
 }
 
+/* Welcome  */
 .welcome {
 	background-image: url("./components/images/pic.jpg");
-	height: 800px;
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: rgb(206, 204, 204);
-	padding-left: 150px;
-	padding-top: 170px;
+	padding-left: 120px;
+	padding-top: 140px;
 }
 
 .cortex {
-	font-size: 160px;
+	font-size: 130px;
 	line-height: 0.7;
 }
 
 .copywriter {
-	font-size: 100px;
+	font-size: 80px;
 	margin-bottom: 50px;
 }
 
 .welcome-text {
-	font-size: 30px;
+	font-size: 25px;
 	font-stretch: extra-expanded;
+	text-align: justify;
 }
 
 .send-btn {
@@ -37,4 +39,59 @@
 	color: #fff;
 	border-color: rgb(3, 97, 160);
 	font-size: 20px;
+}
+
+/* Services */
+.services {
+	height: 520px;
+	background-color: #9f9ef8;
+}
+
+.ux-ui-pic {
+	float: left;
+	width: 50%;
+	padding: 50px 0;
+	padding-left: 40px;
+}
+
+.ux-ui-text {
+	float: right;
+	width: 40%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-right: 60px;
+	color: rgb(36, 35, 35);
+}
+
+.service-heading {
+	font-size: 60px;
+	padding: 20px 0;
+	color: rgb(15, 5, 76);
+}
+
+.service-text {
+	text-align: justify;
+	font-size: 15px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.services-s {
+	text-align: justify;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.content-writing-pic {
+	float: right;
+	width: 50%;
+	padding: 50px 0;
+	padding-right: 40px;
+}
+.content-writing {
+	float: left;
+	width: 40%;
+	padding: 100px 0;
+	padding-left: 60px;
+	color: rgb(36, 35, 35);
 }
